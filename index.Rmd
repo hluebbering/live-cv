@@ -180,7 +180,7 @@ Aside
 ================================================================================
 
 
-![logo](assets/figures/icon.jpeg){width=60%}
+![logo](assets/figures/icon.jpeg){width=70%}
 
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
@@ -194,12 +194,10 @@ Contact {#contact}
 
 
 - <i class="fa fa-envelope"></i> luebhr@gmail.com
-- <i class="fa fa-github la-lg"></i>  github.com/hluebbering
-- <i class="fa fa-link la-lg"></i> hannah-luebbering.com
-- <i class="fab fa-linkedin-in la-lg"></i> linkedin.com/in/hannah-luebbering
+- <i class="fa fa-github"></i>  github.com/hluebbering
+- <i class="fa fa-link"></i> hannah-luebbering.com
+- <i class="fab fa-linkedin-in"></i> linkedin.com/in/hannah-luebbering
 
-
-<br>
 
 
 
@@ -207,27 +205,21 @@ Skills {#skills}
 --------------------------------------------------------------------------------
 
 
+<i class="las la-pen la-lg"></i> Technical Writing
 
-<i class="las la-pen la-lg"></i> `Technical Writing`
+<i class="las la-project-diagram la-lg"></i> Research and Technology
 
-<i class="las la-project-diagram la-lg"></i> `Research and Technology`
+<i class="las la-atom la-lg"></i> Analytical Chemistry
 
-<i class="las la-atom la-lg"></i> `Analytical Chemistry`
+<i class="las la-microscope la-lg"></i> Spectroscopy and Nanotechnology
 
+<i class="lab la-connectdevelop la-lg"></i> Data Science
 
-<i class="las la-microscope la-lg"></i> `Spectroscopy tools in nanotechnology`
+<i class="las la-chart-line la-lg"></i> Statistical Analysis
 
-<i class="las la-sun la-lg"></i> `Solar Energy`
+<i class="las la-superscript la-lg"></i> Mathematical Modeling
 
-<i class="lab la-connectdevelop la-lg"></i> `Data Science`
-
-<i class="las la-chart-line la-lg"></i> `Statistical Analysis`
-
-<i class="las la-superscript la-lg"></i> `Mathematical Modeling`
-
-<i class="las la-laptop-code la-lg"></i> `Mathematical Programming`
-
-<i class="lab la-html5 la-lg"></i> `HTML`
+<i class="lab la-html5 la-lg"></i> Web Design using HTML
 
 <i class="lab la-github la-lg"></i> `GitHub`
 
@@ -241,14 +233,25 @@ Skills {#skills}
 
 
 
-<br>
 
-
-
-
-
-Disclaimer {#disclaimer}
+Certificates {#certificate}
 --------------------------------------------------------------------------------
+
+
+
+<div class="item-content">
+IT Automation with Python
+<div class="item-meta text-muted">
+Google Professional Certificate | 2020
+</div>
+</div>
+
+<div class="item-content">
+Intro to Machine Learning
+<div class="item-meta text-muted">
+Kaggle | 2020
+</div>
+</div>
 
 
 
@@ -295,27 +298,11 @@ Academic Projects {data-icon="las la-book"}
 --------------------------------------------------------------------------------
 
 
+
 ::: aside
 
 
 <!-- ![](assets/figures/svg/flow.svg){width=50%} -->
-
-```{r eval=FALSE, include=FALSE}
-ggtree <- "ggtree (Yu et al. 2017)"
-url <- 'http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract'
-
-ggtree2 <- glue("[{ggtree}]({url})")
-journal <- "**_Methods in Ecology and Evolution_**"
-
-url2 <- "https://methodsblog.com/2020/11/19/ggtree-tree-visualization/"
-journal2 <- glue("[{journal}]({url2})")
-
-glue(
-  " 
-  The {ggtree2} paper was selected as a feature article to celebrate the 10^th^ anniversary of the launch of {journal2}.
-  "
-) %>% print()
-```
 
 
 :::
@@ -323,6 +310,8 @@ glue(
 ```{r}
 print_section(position_data, 'academic_projects')
 ```
+
+
 
 <br>
 

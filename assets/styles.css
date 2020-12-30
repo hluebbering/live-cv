@@ -77,10 +77,11 @@ sup{
   --viewer-shadow-color: #313131;
 }
 
+
 .pagedjs_page {
   --content-area-height: calc(var(--pagedjs-height) - var(--pagedjs-margin-top) - var(--pagedjs-margin-bottom));
+  --pagedjs-margin-top: 0.1in;
   --sidebar-background-width: calc(var(--pagedjs-margin-right) + var(--sidebar-width));
-  --pagedjs-margin-top: 0.5in;
 
 }
 
@@ -140,8 +141,19 @@ h1, h2, h3{
   position: relative;
   margin-left: -4.25pt;
   content: '• ';
+  font-size:1.2em ;
 }
 
+#certificate ul {
+  padding-left: 1rem;
+  margin-top: -0.5rem;
+}
+
+#certificate li::before {
+  position: relative;
+  margin-left: -4.25pt;
+  content: '• ';
+}
 
 
 #main > h1, #aside > h1, #disclaimer > h2 {
@@ -155,6 +167,7 @@ li{
 a {
 	color: #095a95;
 	text-decoration: none;
+	font-size: 0.7rem;
 
 }
 
@@ -193,7 +206,7 @@ img{
 .aside{
   width: calc(var(--sidebar-width) + 9px);
   padding: 0.6in var(--sidebar-horizontal-padding);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-family: 'Vollkorn', serif;
   float: right;
   position: absolute;
@@ -409,11 +422,35 @@ h1, h2{
 .details .place{
   float: left;
   font-size: 0.75rem;
+  color: #3b444b;
+  
+}
+
+span.location::before {
+  content: " | ";
+  white-space: pre;
+  color: #3b444b;
+  font-weight: 700;
+}
+.fa-map-marker-alt{
+  content: none;
+  font-size: 0;
 }
 
 .details .location{
-  float: right;
+  float: left;
+  margin-top: 0.25rem;
+  color: #3b444b;
+  font-size: 0.75rem;
+  content: none;
 }
+
+/*span.location::before {
+  white-space: pre;
+  display: block;
+  content: '\A';
+  margin-top: 1rem;
+}*/
 
 .details div{
   clear: both;
@@ -428,6 +465,7 @@ h1, h2{
 
 #main li{
   margin: 0 0 0.025in 0;
+  color: black;
 }
 
 /****** customize list symbol style ******/
@@ -468,7 +506,7 @@ h1, h2{
 }
 
 .aside .level2{
-  margin-top: 0.5in;
+  margin-top: 0.35in;
 }
 
 #contact ul{
@@ -487,9 +525,13 @@ h1, h2{
 }
 
 #skills{
-  line-height: 1.2;
+  line-height: 1;
 }
 
+#certificate{
+  line-height: 1;
+  font-size: 0.65rem;
+}
 
 
 
@@ -543,4 +585,16 @@ h1, h2{
   display: none;
 }
 
-
+.text-muted { 
+  color: #6c757d; 
+  
+}
+.item-content {
+  font-size: 0.8rem;
+  line-height: 0.6;
+  padding-left: 0.1rem;
+  margin-top: 1rem;
+}
+.item-meta {
+  font-size: 0.65rem;
+}
