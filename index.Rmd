@@ -4,8 +4,10 @@ author: Hannah Luebbering
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
-    css: ./assets/styles.css
+    css: ./assets/css/styles.css
     self_contained: true
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding=encoding, output_dir = "./docs")})
 ---
 
 
@@ -19,11 +21,12 @@ output:
 
 ```{r, include=FALSE}
 library(latex2exp)
+library(rmarkdown)
 knitr::opts_chunk$set(
   results='asis', 
   echo = FALSE
 )
-
+output_dir <- "../docs"
 
 CRANpkg <- function (pkg) {
     cran <- "https://CRAN.R-project.org/package"
@@ -249,7 +252,7 @@ Google Professional Certificate | 2020
 <div class="item-content">
 Intro to Machine Learning
 <div class="item-meta text-muted">
-Kaggle | 2020
+Kaggle Learn Course | 2020
 </div>
 </div>
 
@@ -347,6 +350,7 @@ Links {data-icon=link}
   })
 }
 ```
+
 
 
 

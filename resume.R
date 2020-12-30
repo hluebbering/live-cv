@@ -1,8 +1,9 @@
+## Load Packages
 library(latex2exp)
-knitr::opts_chunk$set(
-  results='asis', 
-  echo = FALSE
-)
+library(glue)
+library(tidyverse)
+
+knitr::opts_chunk$set(results='asis', echo = FALSE)
 
 
 CRANpkg <- function (pkg) {
@@ -15,8 +16,6 @@ Biocpkg <- function (pkg) {
   sprintf("[%s](http://bioconductor.org/packages/%s)", pkg, pkg)
 }
 
-library(glue)
-library(tidyverse)
 
 # Set this to true to have links turned into footnotes at the end of the document
 PDF_EXPORT <- FALSE
@@ -158,20 +157,6 @@ if(PDF_EXPORT){
 print_section(position_data, 'education')
 print_section(position_data, 'research_positions')
 print_section(position_data, 'volunteer_positions')
-ggtree <- "ggtree (Yu et al. 2017)"
-url <- 'http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract'
-
-ggtree2 <- glue("[{ggtree}]({url})")
-journal <- "**_Methods in Ecology and Evolution_**"
-
-url2 <- "https://methodsblog.com/2020/11/19/ggtree-tree-visualization/"
-journal2 <- glue("[{journal}]({url2})")
-
-glue(
-  " 
-  The {ggtree2} paper was selected as a feature article to celebrate the 10^th^ anniversary of the launch of {journal2}.
-  "
-) %>% print()
 print_section(position_data, 'academic_projects')
 print_section(position_data, 'affliation')
 if(PDF_EXPORT){
