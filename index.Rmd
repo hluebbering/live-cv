@@ -1,5 +1,6 @@
 ---
 title: "Hannah Luebbering's CV"
+# subtitle: "Hannah Luebbering Applying To: Data Science - Interdisciplinary Group (MS in Data Science) Fall 2021"
 author: Hannah Luebbering
 date: "`r Sys.Date()`"
 output:
@@ -183,6 +184,8 @@ Aside
 ================================================================================
 
 
+
+
 ![logo](assets/figures/icon.jpeg){width=70%}
 
 ```{r}
@@ -191,6 +194,8 @@ if(PDF_EXPORT){
   cat("View this CV online with links at _guangchuangyu.github.io/cv_")
 }
 ```
+
+
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -267,7 +272,7 @@ Hannah Luebbering {#title}
 
 
 
-Applied Mathematics and Computer Science student at Wake Forest University seeks a career in software computing, data science, and related technologies. Motivated to learn, grow and excel in technology.
+Applied Mathematics and Computer Science student at Wake Forest University seeking a full or part-time position in advance of attending graduate school. Motivated to learn, grow, and excel in technology. Proven success working within fast-paced, collaborative settings.
 
 
 Education {data-icon="las la-graduation-cap"}
@@ -321,10 +326,7 @@ print_section(position_data, 'academic_projects')
 
 
 
-
-
-
-Affiliations {data-icon="las la-users"}
+Accomplishments {data-icon="las la-users"}
 --------------------------------------------------------------------------------
 
 
