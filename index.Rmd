@@ -240,6 +240,8 @@ Skills {#skills}
 <i class="las la-file-code la-lg"></i> `Matlab`
 
 
+![logo](assets/figures/icon.jpeg){width=70%}
+
 
 
 Certificates {#certificate}
@@ -299,29 +301,6 @@ Volunteer Positions {data-icon="las la-globe"}
 ```{r}
 print_section(position_data, 'volunteer_positions')
 ```
-
-
-
-Academic Projects {data-icon="las la-book"}
---------------------------------------------------------------------------------
-
-
-
-::: aside
-
-
-<!-- ![](assets/figures/svg/flow.svg){width=50%} -->
-
-
-:::
-
-```{r}
-print_section(position_data, 'academic_projects')
-```
-
-
-
-<br>
 
 
 
