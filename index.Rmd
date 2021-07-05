@@ -213,21 +213,18 @@ Skills {#skills}
 --------------------------------------------------------------------------------
 
 
-<i class="las la-pen la-lg"></i> Technical Writing
-
-<i class="las la-project-diagram la-lg"></i> Research and Technology
-
-<i class="las la-atom la-lg"></i> Analytical Chemistry
-
-<i class="las la-microscope la-lg"></i> Spectroscopy and Nanotechnology
-
-<i class="lab la-connectdevelop la-lg"></i> Data Science
-
-<i class="las la-chart-line la-lg"></i> Statistical Analysis
 
 <i class="las la-superscript la-lg"></i> Mathematical Modeling
 
-<i class="lab la-html5 la-lg"></i> Web Design using HTML
+<i class="las la-chart-line la-lg"></i> Statistical Analysis
+
+<i class="las la-project-diagram la-lg"></i> Research and Technology
+
+<i class="las la-microscope la-lg"></i> Spectroscopy and Nanotechnology
+
+<i class="lab la-connectdevelop la-lg"></i> Data Analytics and Visualizations
+
+<i class="lab la-html5 la-lg"></i> Web Design
 
 <i class="lab la-github la-lg"></i> `GitHub`
 
@@ -263,6 +260,12 @@ Kaggle Learn Course | 2020
 </div>
 
 
+\ 
+
+![logo2](assets/figures/map.svg){width=70%}
+
+
+
 
 
 Main
@@ -272,8 +275,7 @@ Hannah Luebbering {#title}
 --------------------------------------------------------------------------------
 
 
-
-Applied Mathematics and Computer Science student at Wake Forest University seeking a full or part-time position in advance of attending graduate school. Motivated to learn, grow, and excel in technology. Proven success working within fast-paced, collaborative settings.
+Data Science graduate student at University of Washington. Motivated to learn, grow, and excel in technology.
 
 
 Education {data-icon="las la-graduation-cap"}
