@@ -185,7 +185,7 @@ Aside
 
 
 
-![logo](assets/figures/icon.jpeg){width=70%}
+![logo2](assets/figures/icon2.jpg){width=70%}
 
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
@@ -227,14 +227,30 @@ Skills {#skills}
 
 
 
+
+
 Programming {#programming}
 --------------------------------------------------------------------------------
 
 
 
-![coding](assets/figures/Skills.svg)
+![coding2](assets/figures/Skills1.svg)
 
 
+\ 
+
+
+![other2](assets/figures/Software.svg){width=70%}
+
+
+
+\ 
+
+\ 
+
+\ 
+
+\ 
 
 
 
