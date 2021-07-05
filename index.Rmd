@@ -185,7 +185,6 @@ Aside
 
 
 
-
 ![logo](assets/figures/icon.jpeg){width=70%}
 
 ```{r}
@@ -226,15 +225,14 @@ Skills {#skills}
 
 <i class="lab la-html5 la-lg"></i> Web Design
 
-<i class="lab la-github la-lg"></i> `GitHub`
 
-<i class="lab la-r-project la-lg"></i> `R`
 
-<i class="lab la-java la-lg"></i> `Java`
+Programming {#programming}
+--------------------------------------------------------------------------------
 
-<i class="lab la-python la-lg"></i> `Python`
 
-<i class="las la-file-code la-lg"></i> `Matlab`
+
+![coding](assets/figures/Skills.svg){width=70%}
 
 
 
@@ -244,6 +242,13 @@ Certificates {#certificate}
 --------------------------------------------------------------------------------
 
 
+<div class="item-content">
+AWS Going Cloud Native
+<div class="item-meta text-muted">
+Amazon Web Services | 2021
+</div>
+</div>
+
 
 <div class="item-content">
 IT Automation with Python
@@ -252,17 +257,7 @@ Google Professional Certificate | 2020
 </div>
 </div>
 
-<div class="item-content">
-Intro to Machine Learning
-<div class="item-meta text-muted">
-Kaggle Learn Course | 2020
-</div>
-</div>
 
-
-\ 
-
-![logo2](assets/figures/map.svg){width=70%}
 
 
 
