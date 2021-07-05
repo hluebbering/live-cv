@@ -240,7 +240,7 @@ Programming {#programming}
 \ 
 
 
-![other2](assets/figures/Software.svg){width=70%}
+![SoftwareChart](assets/figures/Software.svg){width=70%}
 
 
 
