@@ -240,7 +240,6 @@ Skills {#skills}
 <i class="las la-file-code la-lg"></i> `Matlab`
 
 
-![logo](assets/figures/icon.jpeg){width=70%}
 
 
 
