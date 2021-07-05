@@ -232,7 +232,7 @@ Programming {#programming}
 
 
 
-![coding](assets/figures/Skills.svg){width=70%}
+![coding](assets/figures/Skills.svg)
 
 
 
