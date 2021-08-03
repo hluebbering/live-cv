@@ -225,17 +225,14 @@ Skills {#skills}
 
 <i class="lab la-html5 la-lg"></i> Web Design
 
-
-
-
-
-Programming {#programming}
---------------------------------------------------------------------------------
+\ 
 
 
 
 ![coding2](assets/figures/Skills1.svg)
 
+
+\ 
 
 \ 
 
