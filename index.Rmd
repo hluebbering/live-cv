@@ -201,9 +201,10 @@ Contact {#contact}
 
 
 - <i class="fa fa-envelope"></i> luebhr@gmail.com
-- <i class="fa fa-github"></i>  github.com/hluebbering
-- <i class="fa fa-link"></i> hannah-luebbering.com
-- <i class="fab fa-linkedin-in"></i> linkedin.com/in/hannah-luebbering
+- <i class="fab fa-linkedin-in"></i> [linkedin.com/in/hannahluebbering](https://www.linkedin.com/in/hannahluebbering/)
+- <i class="fa fa-github"></i> [github.com/hluebbering](https://github.com/hluebbering)
+- <i class="fa fa-link"></i> [hannah-luebbering.com](https://hannah-luebbering.com)
+
 
 
 
@@ -234,18 +235,17 @@ Skills {#skills}
 
 \ 
 
-\ 
-
-
-![SoftwareChart](assets/figures/Radial2.svg){width=80%}
 
 
 
-\ 
+![SoftwareChart](assets/figures/Radial1.svg){width=85%}
+
+
 
 \ 
 
 \ 
+
 
 
 Certificates {#certificate}
