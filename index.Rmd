@@ -230,15 +230,14 @@ Skills {#skills}
 
 
 
-![coding2](assets/figures/Skills1.svg)
+![coding2](assets/figures/Skills1.svg){width=95%}
 
 
 \ 
 
 
 
-
-![SoftwareChart](assets/figures/Radial1.svg){width=80%}
+![RadialChart](assets/figures/Radial1.svg){width=75%}
 
 
 
@@ -246,26 +245,30 @@ Skills {#skills}
 
 \ 
 
+\ 
 
 
-Certificates {#certificate}
---------------------------------------------------------------------------------
 
 
-<div class="item-content">
-AWS Going Cloud Native
-<div class="item-meta text-muted">
-Amazon Web Services | 2021
-</div>
-</div>
+
+<!-- Certificates {#certificate} -->
+<!-- -------------------------------------------------------------------------------- -->
 
 
-<div class="item-content">
-IT Automation with Python
-<div class="item-meta text-muted">
-Google Professional Certificate | 2020
-</div>
-</div>
+<!-- <div class="item-content"> -->
+<!-- AWS Going Cloud Native -->
+<!-- <div class="item-meta text-muted"> -->
+<!-- Amazon Web Services | 2021 -->
+<!-- </div> -->
+<!-- </div> -->
+
+
+<!-- <div class="item-content"> -->
+<!-- IT Automation with Python -->
+<!-- <div class="item-meta text-muted"> -->
+<!-- Google Professional Certificate | 2020 -->
+<!-- </div> -->
+<!-- </div> -->
 
 
 
