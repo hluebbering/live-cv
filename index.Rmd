@@ -238,7 +238,7 @@ Skills {#skills}
 
 
 
-![SoftwareChart](assets/figures/Radial1.svg){width=85%}
+![SoftwareChart](assets/figures/Radial1.svg){width=80%}
 
 
 
