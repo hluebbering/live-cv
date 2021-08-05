@@ -22,6 +22,15 @@ h1, h2, h3{
   color: #000;
 }
 
+.aside h2 {
+  font-weight: 400;
+  font-size: 16pt;
+  font-variant: all-small-caps;
+  text-transform: none;
+}
+
+
+
 sup{
   font-size: 0.45rem;
   font-style: italic;
@@ -205,7 +214,7 @@ img{
 
 .aside{
   width: calc(var(--sidebar-width) + 9px);
-  padding: 0.6in var(--sidebar-horizontal-padding);
+  padding: 0.42in var(--sidebar-horizontal-padding);
   font-size: 0.7rem;
   font-family: 'Vollkorn', serif;
   float: right;
@@ -498,15 +507,15 @@ span.location::before {
 
 
 
-/* sidebar */
+/* sidebar 
 
 .aside h2{
   font-weight: 400;
   font-size: 1.1rem;
-}
+} */
 
 .aside .level2{
-  margin-top: 0.35in;
+  margin-top: 0.15in;
 }
 
 #contact ul{

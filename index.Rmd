@@ -185,7 +185,7 @@ Aside
 
 
 
-![logo2](assets/figures/icon.jpg){width=70%}
+![logo2](assets/figures/icon.jpg){width=75%}
 
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
@@ -207,11 +207,8 @@ Contact {#contact}
 
 
 
-
-
 Skills {#skills}
 --------------------------------------------------------------------------------
-
 
 
 <i class="las la-superscript la-lg"></i> Mathematical Modeling
@@ -226,27 +223,23 @@ Skills {#skills}
 
 <i class="lab la-html5 la-lg"></i> Web Design
 
-\ 
+
+
+Programming {#programming}
+--------------------------------------------------------------------------------
+
+![RadialChart](assets/figures/Programming.svg){width=92%}
 
 
 
-![coding2](assets/figures/Skills1.svg){width=95%}
+Tools {#tools}
+--------------------------------------------------------------------------------
 
 
-\ 
+![Tools](assets/figures/Tools.svg){width=96%}
 
 
-
-![RadialChart](assets/figures/Radial1.svg){width=75%}
-
-
-
-\ 
-
-\ 
-
-\ 
-
+<!-- ![coding2](assets/figures/Skills1.svg){width=95%} -->
 
 
 
