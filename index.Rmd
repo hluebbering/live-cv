@@ -217,7 +217,7 @@ Skills {#skills}
 
 <i class="las la-project-diagram la-lg"></i> Research and Technology
 
-<i class="las la-microscope la-lg"></i> Spectroscopy and Nanotechnology
+<i class="las la-microscope la-lg"></i> Nanotechnology and Microscopy
 
 <i class="lab la-connectdevelop la-lg"></i> Data Analytics and Visualizations
 
@@ -276,7 +276,8 @@ Hannah Luebbering {#title}
 --------------------------------------------------------------------------------
 
 
-Data Science graduate student at University of Washington. Motivated to learn, grow, and excel in technology.
+Data Science graduate student at the University of Washington. Excited to apply mathematics and programming skills to solve real-world problems. Motivated to learn, grow, and excel in data science and technology to improve others' quality of life.
+
 
 
 Education {data-icon="las la-graduation-cap"}
