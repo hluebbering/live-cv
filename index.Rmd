@@ -217,7 +217,7 @@ Skills {#skills}
 
 <i class="las la-project-diagram la-lg"></i> Research and Technology
 
-<i class="las la-microscope la-lg"></i> Nanotechnology and Microscopy
+<i class="las la-microscope la-lg"></i> Nanotechnology and Chemistry
 
 <i class="lab la-connectdevelop la-lg"></i> Data Analytics and Visualizations
 
