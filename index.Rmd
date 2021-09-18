@@ -203,7 +203,7 @@ Contact {#contact}
 - <i class="fa fa-envelope"></i> luebhr@gmail.com
 - <i class="fab fa-linkedin-in"></i> [linkedin.com/in/hannahluebbering](https://www.linkedin.com/in/hannahluebbering/)
 - <i class="fa fa-github"></i> [github.com/hluebbering](https://github.com/hluebbering)
-- <i class="fa fa-link"></i> [hannah-luebbering.com](https://hannah-luebbering.com)
+- <i class="fa fa-link"></i> [hluebbering.github.io](https://hluebbering.github.io/)
 
 
 
