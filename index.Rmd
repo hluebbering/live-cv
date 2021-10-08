@@ -1,6 +1,5 @@
 ---
 title: "Hannah Luebbering's CV"
-# subtitle: "Hannah Luebbering Applying To: Data Science - Interdisciplinary Group (MS in Data Science) Fall 2021"
 author: Hannah Luebbering
 date: "`r Sys.Date()`"
 output:
@@ -185,7 +184,7 @@ Aside
 
 
 
-![logo2](assets/figures/icon.jpg){width=75%}
+![logo2](assets/figures/icon.jpg){width=76%}
 
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
@@ -239,9 +238,6 @@ Tools {#tools}
 ![Tools](assets/figures/Tools.svg){width=96%}
 
 
-<!-- ![coding2](assets/figures/Skills1.svg){width=95%} -->
-
-
 
 
 <!-- Certificates {#certificate} -->
@@ -254,17 +250,6 @@ Tools {#tools}
 <!-- Amazon Web Services | 2021 -->
 <!-- </div> -->
 <!-- </div> -->
-
-
-<!-- <div class="item-content"> -->
-<!-- IT Automation with Python -->
-<!-- <div class="item-meta text-muted"> -->
-<!-- Google Professional Certificate | 2020 -->
-<!-- </div> -->
-<!-- </div> -->
-
-
-
 
 
 
@@ -308,7 +293,7 @@ print_section(position_data, 'volunteer_positions')
 
 
 
-Accomplishments {data-icon="las la-users"}
+Extracurricular {data-icon="las la-users"}
 --------------------------------------------------------------------------------
 
 

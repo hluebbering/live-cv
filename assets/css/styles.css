@@ -1,11 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Roboto+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Trocchi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 
 /* Font stuffs */
@@ -20,13 +15,14 @@ body {
 h1, h2, h3{
   font-family: 'Noto Serif TC', serif;
   color: #000;
+  margin: 0;
 }
 
 .aside h2 {
   font-weight: 400;
-  font-size: 16pt;
-  font-variant: all-small-caps;
   text-transform: none;
+  font-size: 1.2rem;
+  font-variant: all-small-caps;
 }
 
 
@@ -46,12 +42,11 @@ sup{
 
 @page{
   size: letter portrait;
-  margin: 0.8in 0.5in 0.8in 0.25in;
+  margin: 0.6in 0.5in 0.6in 0.25in;
 }
 
 *{
   box-sizing: border-box;
-   /* Override default right margin for sidebar*/
   --pagedjs-margin-right: 0.2in;
   --pagedjs-margin-left: 0.2in;
 }
@@ -98,7 +93,6 @@ sup{
   background: linear-gradient(to left, var(--sidebar-background-color), var(--sidebar-background-color) var(--sidebar-background-width), white var(--sidebar-background-width));
 }
 
-/* Things I have changed from the unexposed pagedjs css */
 .details .place {
   margin-top: 0.25rem;
 }
@@ -107,15 +101,9 @@ sup{
   padding-top: 0.005rem;
 }
 
-/* This icon isn't centered by default which is lame */ 
 .la-laptop-code{
   margin-left: 0;
 }
-
-
-
-
-/* End things I have changed */ 
 
 
 html {
@@ -125,10 +113,6 @@ html {
 body{
   width: var(--content-width);
   hyphens: auto;
-}
-
-h1, h2, h3{
-  margin: 0;
 }
 
 #links li {
@@ -224,11 +208,6 @@ img{
 
 /* main */
 
-/** big title **/
-h1, h2{
-  text-transform: uppercase;
-}
-
 #title{
   position: relative;
   left: 0.55in;
@@ -238,12 +217,14 @@ h1, h2{
 
 #title h1{
   font-weight: 300;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   line-height: 1.5;
+  text-transform: none;
+  font-variant: small-caps;
 }
 
 #title h3{
-  font-size: 0.8rem;
+  font-size: 0.72rem;
 }
 
 
@@ -256,17 +237,16 @@ h1, h2{
 #main h2{
   position: relative;
   top: var(--row-blocks-padding-top);
-  /* XXX: 0.5px for aligning fx printing */
   left: calc((var(--date-block-width) + var(--decorator-horizontal-margin)));
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #555;
+  font-variant: all-small-caps;
+  text-transform: none;
+    
 }
 
 #main h2 > i{
-  /* use absolute position to prevent icon's width from misaligning title */
-  /* assigning a fixed width here is no better due to needing to align decorator
-     line too */
   position: absolute;
   left: var(--main-blocks-title-icon-offset-left);
   z-index: 1; /* over decorator line */
@@ -277,7 +257,6 @@ h1, h2{
   height: calc(var(--row-blocks-padding-top) * 2);
   position: relative;
   top: calc(-1 * var(--row-blocks-padding-top));
-  /* XXX: 0.5px for aligning fx printing */
   left: calc(-1 * var(--decorator-horizontal-margin));
   display: block;
   border-left: var(--decorator-border);
@@ -341,7 +320,6 @@ h1, h2{
 }
 
 .date span{
-  /*display: block;*/
   text-align: center;
 }
 
@@ -349,9 +327,7 @@ h1, h2{
   position: relative;
   top: -0.1rem;
   right: 0;
-  /*display: block;*/
   height: 1rem;
-  /*content: "-";*/
 }
 .decorator{
   flex: 0 0 0;
@@ -360,15 +336,6 @@ h1, h2{
   min-height: 100%;
   border-left: var(--decorator-border);
 }
-
-/*
- * XXX: Use two filled circles to achieve the circle-with-white-border effect.
- * The normal technique of only using one pseudo element and
- * border: 1px solid white; style makes firefox erroneously either:
- * 1) overflows the grayshade background (if no background-clip is set), or
- * 2) shows decorator line which should've been masked by the white border
- *
- */
 
 .decorator::before{
   position: absolute;
@@ -411,7 +378,7 @@ h1, h2{
 }
 
 .details h3{
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .main-block:not(.concise) .details div{
@@ -454,13 +421,6 @@ span.location::before {
   content: none;
 }
 
-/*span.location::before {
-  white-space: pre;
-  display: block;
-  content: '\A';
-  margin-top: 1rem;
-}*/
-
 .details div{
   clear: both;
 }
@@ -484,12 +444,6 @@ span.location::before {
   content: '• ';
 }
 
-/*
-.aside li::before {
-  content: none;
-}
-*/
-
 .details .concise ul{
   margin: 0 !important;
   -webkit-columns: 2;
@@ -504,15 +458,6 @@ span.location::before {
 .details .concise li{
   margin-left: 0 !important;
 }
-
-
-
-/* sidebar 
-
-.aside h2{
-  font-weight: 400;
-  font-size: 1.1rem;
-} */
 
 .aside .level2{
   margin-top: 0.15in;
