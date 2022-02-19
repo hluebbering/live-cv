@@ -184,7 +184,7 @@ Aside
 
 
 
-![logo2](assets/figures/icon.jpg){width=76%}
+![logo2](assets/figures/icon2.jpg){width=76%}
 
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
@@ -212,13 +212,13 @@ Skills {#skills}
 
 <i class="las la-superscript la-lg"></i> Mathematical Modeling
 
-<i class="las la-chart-line la-lg"></i> Statistical Analysis
-
-<i class="las la-project-diagram la-lg"></i> Research and Technology
-
-<i class="las la-microscope la-lg"></i> Nanotechnology and Chemistry
+<i class="las la-project-diagram la-lg"></i> Machine Learning
 
 <i class="lab la-connectdevelop la-lg"></i> Data Analytics and Visualizations
+
+<i class="las la-chart-line la-lg"></i> Statistical Analysis
+
+<i class="las la-microscope la-lg"></i> Nanotechnology
 
 <i class="lab la-html5 la-lg"></i> Web Design
 
