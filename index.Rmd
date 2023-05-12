@@ -264,7 +264,8 @@ Main
 <span class="name1">Hannah </span>
 <span class="name2">Luebbering </span>
 
-Data Science graduate student at the University of Washington. Excited to apply mathematics and programming skills to solve real-world problems. Motivated to learn, grow, and excel in data science and technology to improve others' quality of life.
+
+I am a data scientist particularly interested in the intersection of mathematical modeling, computing, and user interface design. I specialize in synthesizing insights from data using various programming languages and developing cutting-edge, user-centric platforms.
 
 
 
