@@ -199,6 +199,7 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 
+- <i class="fa fa-map-pin"></i> New York, NY
 - <i class="fa fa-envelope"></i> luebhr@gmail.com
 - <i class="fab fa-linkedin-in"></i> [linkedin.com/in/hannahluebbering](https://www.linkedin.com/in/hannahluebbering/)
 - <i class="fa fa-github"></i> [github.com/hluebbering](https://github.com/hluebbering)
