@@ -593,3 +593,14 @@ span.location::before {
 .item-meta {
   font-size: 0.65rem;
 }
+
+/*
+
+span.mjx-char.MJXc-TeX-main-B {
+    padding: 0 0.5px;
+    font-weight: 400 !important;
+    font-family: 'Roboto Mono' !important;
+    font-family: 'Raleway' !important;
+}
+
+*/
