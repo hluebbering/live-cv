@@ -111,6 +111,7 @@ sup{
 
   --row-blocks-padding-top: 0.2rem;
   --date-block-width: 0.7in;
+  --date-block-width: 0.6in;
 
   --main-blocks-title-icon-offset-left: calc(-17pt - 0.25 * var(--root-font-size));
 
@@ -123,6 +124,7 @@ sup{
 .pagedjs_page {
   --content-area-height: calc(var(--pagedjs-height) - var(--pagedjs-margin-top) - var(--pagedjs-margin-bottom));
   --pagedjs-margin-top: 0.1in;
+  --pagedjs-margin-top: 0.325in !important;
   --sidebar-background-width: calc(var(--pagedjs-margin-right) + var(--sidebar-width));
 
 }
@@ -131,13 +133,9 @@ sup{
   background: linear-gradient(to left, var(--sidebar-background-color), var(--sidebar-background-color) var(--sidebar-background-width), white var(--sidebar-background-width));
 }
 
-.details .place {
-  margin-top: 0.25rem;
-}
 
-.main-block:not(.concise) .details div {
-  padding-top: 0.005rem;
-}
+
+
 
 .la-laptop-code{
   margin-left: 0;
@@ -250,6 +248,7 @@ img{
   position: relative;
   left: 0.55in;
   margin: auto 0.55in 0.3in auto;
+  margin: auto 0.55in 0.075in auto;
   line-height: 1.2;
 }
 
@@ -261,6 +260,10 @@ img{
   font-size: 15pt;
   text-transform: uppercase;
   letter-spacing: 1.3pt;
+}
+
+#title p {
+    margin: 4px 0 4px 0;
 }
 
 #title h3{
@@ -287,7 +290,7 @@ img{
 /*** categorial blocks ***/
 
 .main-block{
-  margin-top: 0.1in;
+  margin-top: 0.02in;
 }
 
 
@@ -424,6 +427,8 @@ img{
 
 .main-block:not(.concise) .details div{
   padding: 0.001in 0 0.11in 0;
+  padding-top: 0.005rem;
+  padding: 0.001in 0 0.05in 0;
 }
 
 .main-block:not(.concise) .blocks:last-child .details div{
@@ -440,6 +445,7 @@ img{
   color: #424342;
   font-family: "Nunito Sans";
   font-size: 9pt;
+  margin-top: 0.125rem;
 }
 
 span.location::before {
@@ -455,7 +461,7 @@ span.location::before {
 
 .details .location{
   float: left;
-  margin-top: 0.25rem;
+  margin-top: 0.125rem;
   color: #3b444b;
   font-size: 0.75rem;
   content: none;
@@ -469,7 +475,7 @@ span.location::before {
 
 #main ul{
   padding-left: 0.07in;
-  margin: 0.05in 0;
+  margin: 0.025in 0;
 }
 
 #main li{

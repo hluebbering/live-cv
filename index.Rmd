@@ -228,7 +228,22 @@ Skills {#skills}
 Programming {#programming}
 --------------------------------------------------------------------------------
 
-![RadialChart](assets/figures/Programming.svg){width=92%}
+
+
+<i class="las la-superscript la-lg"></i> Python
+
+<i class="las la-project-diagram la-lg"></i> R
+
+<i class="lab la-connectdevelop la-lg"></i> SQL
+
+<i class="las la-chart-line la-lg"></i> Javascript
+
+<i class="las la-microscope la-lg"></i> Matlab
+
+
+
+
+<!--![RadialChart](assets/figures/Programming.svg){width=92%}-->
 
 
 
@@ -236,7 +251,20 @@ Tools {#tools}
 --------------------------------------------------------------------------------
 
 
-![Tools](assets/figures/Tools.svg){width=96%}
+
+<i class="las la-superscript la-lg"></i> Tableau
+
+<i class="las la-project-diagram la-lg"></i> HTML/CSS
+
+<i class="lab la-connectdevelop la-lg"></i> Looker Studio
+
+<i class="las la-chart-line la-lg"></i> AWS
+
+<i class="las la-microscope la-lg"></i> Adobe
+
+
+
+<!--![Tools](assets/figures/Tools.svg){width=96%}-->
 
 
 
@@ -287,6 +315,9 @@ print_section(position_data, 'research_positions')
 
 
 
+
+<!--
+
 Volunteer Positions {data-icon="las la-globe"}
 --------------------------------------------------------------------------------
 
@@ -295,6 +326,7 @@ Volunteer Positions {data-icon="las la-globe"}
 print_section(position_data, 'volunteer_positions')
 ```
 
+-->
 
 
 
