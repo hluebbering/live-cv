@@ -202,8 +202,12 @@ Contact {#contact}
 - <i class="fa fa-map-pin"></i> New York, NY
 - <i class="fa fa-envelope"></i> luebhr@gmail.com
 - <i class="fab fa-linkedin-in"></i> [linkedin.com/in/hannahluebbering](https://www.linkedin.com/in/hannahluebbering/)
+- <i class="fa fa-github"></i> [hluebbering.github.io](https://hluebbering.github.io/)
+
+<!--- 
 - <i class="fa fa-github"></i> [github.com/hluebbering](https://github.com/hluebbering)
 - <i class="fa fa-link"></i> [hluebbering.github.io](https://hluebbering.github.io/)
+-->
 
 
 
@@ -229,17 +233,21 @@ Programming {#programming}
 --------------------------------------------------------------------------------
 
 
+<div class = "programming-list">
 
-<i class="las la-superscript la-lg"></i> Python
+<!--<i class="fa-brands fa-python"></i> Python-->
 
-<i class="las la-project-diagram la-lg"></i> R
+<i class="my-icon python"></i> Python
 
-<i class="lab la-connectdevelop la-lg"></i> SQL
+<i class="my-icon r"></i> R
 
-<i class="las la-chart-line la-lg"></i> Javascript
+<i class="my-icon sql"></i> SQL
 
-<i class="las la-microscope la-lg"></i> Matlab
+<i class="my-icon js"></i> Javascript
 
+<i class="my-icon matlab"></i> Matlab
+
+</div>
 
 
 
@@ -251,17 +259,20 @@ Tools {#tools}
 --------------------------------------------------------------------------------
 
 
+<div class = "tools-list">
 
-<i class="las la-superscript la-lg"></i> Tableau
+<i class="my-icon tableau"></i> Tableau
 
-<i class="las la-project-diagram la-lg"></i> HTML/CSS
+<i class="my-icon html"></i> HTML/CSS
 
-<i class="lab la-connectdevelop la-lg"></i> Looker Studio
+<i class="my-icon looker"></i> Looker
 
-<i class="las la-chart-line la-lg"></i> AWS
+<i class="my-icon aws"></i> AWS
 
-<i class="las la-microscope la-lg"></i> Adobe
+<i class="my-icon adobe"></i> Adobe
 
+
+</div>
 
 
 <!--![Tools](assets/figures/Tools.svg){width=96%}-->

@@ -290,7 +290,7 @@ img{
 /*** categorial blocks ***/
 
 .main-block{
-  margin-top: 0.02in;
+  margin-top: 0.085in;
 }
 
 
@@ -524,6 +524,74 @@ span.location::before {
   font-size:1.5em ;
   margin-right: 4px;
 }
+
+
+.programming-list, .tools-list {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin: auto;
+    padding: 0px 0px;
+}
+
+.programming-list p,
+.tools-list p {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 61px;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+
+
+i.my-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    object-position: 50% 50%;
+    position: relative;
+    top: -2px;
+    vertical-align: middle;
+    text-align: center;
+    align-self: center;
+}
+
+.my-icon.python {
+  content: url(..\figures\py3D.png);
+}
+
+.my-icon.r {
+  content: url(..\figures\r-project.svg);
+}
+.my-icon.sql {
+  content: url(..\figures\sql.png);
+}
+.my-icon.js {
+  content: url(..\figures\javascript2.png);
+}
+.my-icon.matlab {
+  content: url(..\figures\Matlab.png);
+}
+
+
+.my-icon.adobe {
+  content: url(..\figures\adobe.png);
+}
+.my-icon.tableau {
+  content: url(..\figures\tableau3.png);
+}
+.my-icon.html {
+  content: url(..\figures\html.png);
+}
+.my-icon.aws {
+  content: url(..\figures\aws.png);
+}
+.my-icon.looker {
+  content: url(..\figures\gcloud.png);
+}
+
+
 
 #skills{
   line-height: 1;
