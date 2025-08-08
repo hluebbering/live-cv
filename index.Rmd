@@ -305,7 +305,8 @@ Main
 <span class="name2">Luebbering </span>
 
 
-I am a data scientist particularly interested in the intersection of mathematical modeling, computing, and user interface design. I specialize in synthesizing insights from data using various programming languages and developing cutting-edge, user-centric platforms.
+
+Data scientist with +2 years in machine learning and data engineering. Built live dashboards for 40+ stakeholders and deployed a dbt-driven ELT pipeline that automated daily data ingests and slashed pipeline costs by over 50%. First author on a 2023 Cell Reports Physical Science published research paper, translating complex data into actionable insights and driving seamless cross-team collaboration.
 
 
 
